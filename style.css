@@ -20,7 +20,7 @@ body {
 @media (max-width:768px) {
   .matrix-img {
     text-align: center;
-}
+  }
 }
 .center-main-page-elem {
   display: block;
@@ -42,7 +42,7 @@ body {
 .li, .completed, .to-do {
   list-style:none;
 }
-.input, .button{
+.input, .button {
   outline:none;
 }
 .button {
