@@ -30,7 +30,7 @@ body {
 .task {
   width: 56%;
   display: inline-block;
-  flex-grow: 1
+  flex-grow: 1;
 }
 .task-row-wrapper {
   display: flex;
@@ -116,7 +116,7 @@ body {
   width: 226px;
 }
 .input-text {
-  width: 226px
+  width: 226px;
 }
 .delete-img {
   height: 2em;
@@ -135,12 +135,12 @@ body {
 
 /* Edit Task */
 .input-text {
-  display: none
+  display: none;
 }
 
 .go-shopping{
   display: inline-block;
-  width: 224px
+  width: 224px;
 }
 
 .edit-mode-label {
