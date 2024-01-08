@@ -31,13 +31,13 @@ var createNewTaskElement = function (taskString) {
   listItem.className = "li"; //добавлено
 
   label.innerText = taskString;
-  label.className = "task";
+  label.className = "all-forms";
 
   //Each elements, needs appending
   checkBox.type = "checkbox";
   checkBox.className = "input input-checkbox";
   editInput.type = "text";
-  editInput.className = "task input-text input input-text-all";
+  editInput.className = "all-forms input-text input input-text-all";
 
   editButton.innerText = "Edit"; //innerText encodes special characters, HTML does not.
   editButton.className = "edit button";
